@@ -10,3 +10,5 @@ urlpatterns = [
         url('', views.home, name='home'),
         url('add', views.add, name="add")
 ]
+
+print('hello world')
